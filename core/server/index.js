@@ -1,9 +1,7 @@
-<<<<<<< HEAD
-=======
+
 // # Bootup
 // This file needs serious love & refactoring
 
->>>>>>> 0fd3d0b3a92b7d4894617c48ace875e7ff60c2d1
 // Module dependencies
 var express     = require('express'),
     hbs         = require('express-hbs'),
@@ -27,10 +25,8 @@ var express     = require('express'),
     xmlrpc      = require('./data/xml/xmlrpc'),
     GhostServer = require('./ghost-server'),
 
-<<<<<<< HEAD
+
 // Variables
-=======
->>>>>>> 0fd3d0b3a92b7d4894617c48ace875e7ff60c2d1
     dbHash;
 
 function doFirstRun() {
@@ -142,14 +138,12 @@ function initNotifications() {
     }
 }
 
-<<<<<<< HEAD
+
 // ## Initializes the ghost application.
 // Sets up the express server instance.
 // Instantiates the ghost singleton, helpers, routes, middleware, and apps.
-=======
 // ## Initialise Ghost
 // Sets up the express server instances, runs init on a bunch of stuff, configures views, helpers, routes and more
->>>>>>> 0fd3d0b3a92b7d4894617c48ace875e7ff60c2d1
 // Finally it returns an instance of GhostServer
 function init(options) {
     // Get reference to an express app instance.
