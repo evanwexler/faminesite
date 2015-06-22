@@ -20,7 +20,14 @@ content/*
 content/themes/*
 !/content/themes/
 
+<<<<<<< HEAD
 content/themes/yourtheme/*
 !/content/themes/yourtheme/
 
 !/content/themes/yourtheme/*
+=======
+content/themes/rfftheme/*
+!/content/themes/rfftheme/
+
+!/content/themes/rfftheme/*
+>>>>>>> 0fd3d0b3a92b7d4894617c48ace875e7ff60c2d1
