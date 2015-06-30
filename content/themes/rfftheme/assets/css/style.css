@@ -53,3 +53,8 @@ H1.blogtitle {
 	font-size: 13em;
 	text-align: center;
 }
+
+
+img {
+	max-width: 100%;
+}
