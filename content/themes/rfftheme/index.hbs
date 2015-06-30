@@ -1,16 +1,17 @@
 {{!< default}}
 {{> header}}
 
-<main class="main index container" role="main">
-	<div class="col-md-6">
+<main class="main index" role="main">
+	<div class=" videobox col-md-12">
+		<p>VIDEOBOX</p>
+	</div>
+	<div class="sudan-col col-md-8">
 	{{#foreach posts}}
 		<article class="article" role="article"> 
 			<header class="postheader">
 				<time class="date" datetime="{{date format="YYYY-MM-DD"}}" itemprop="datePublished">{{date format='dddd DD MMM YYYY'}}</time>
 				<h1 class="posttitle" itemprop="headline"><a href="{{{url}}}" rel="bookmark">{{title}}</a></h1>
 			</header>
-			
-			
 			<div class="postcontent" itemprop="articleBody">
 			<img src="{{image}}"</div>
 			{{content words="100"}} <p>...</p>
@@ -23,13 +24,22 @@
 			{{/if}}
 			</article>
 	{{/foreach}}
-</div>
-
+	
 {{#if pagination}}
 	<div class="pagination_uber">
-	{{{pagination}}}
+		{{{pagination}}}
 	</div>
-{{/if}}
+		{{/if}}
+	</div>
+	
+	
+	<div class="vr-col col-md-4">
+		<article>
+			<p class="invert">some vr story gets pulled in dynamically here</p>
+		</article>
+	</div>
+	
+	
 </main>
 
 {{> footer}}
