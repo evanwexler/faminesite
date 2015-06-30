@@ -1,3 +1,25 @@
-body { background-color: #F0F0F0; 
-	   font-family: helvetica, sans-serif;
+body { 
+	background-color: #F0F0F0; 
+	color: #000;
+	font-family: helvetica, sans-serif;
 }
+
+
+a {
+	color: #000;
+}
+
+.index .postcontent {
+	border-bottom: 1px solid #b3b3b3; 
+}
+
+
+H1 {
+	font-size: 1.5em;
+	font-weight: 800;
+}
+
+H1.blogtitle {
+	font-size: 3em;	
+}
+

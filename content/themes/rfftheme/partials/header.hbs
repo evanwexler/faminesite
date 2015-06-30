@@ -1,13 +1,15 @@
-<div role='banner' class="header">
+
+<div role='container banner' class="header">
 {{#if @blog.logo}}<a class="logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
-<h1 class="blogtitle">
+<h1 class="container blogtitle">
 <a title="{{@blog.title}}" href='{{@blog.url}}'>
 {{{@blog.title}}}
 </a>
 </h1>
-<p class="blogdescription">
+<p class=" container blogdescription">
 <a title="{{@blog.title}}" href='{{@blog.url}}'>
 {{@blog.description}}
 </a>
 </p>
 </div>
+
