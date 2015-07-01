@@ -33,7 +33,7 @@ h1.blogtitle, h1.blogtitle > a {
 }
 
 
-h2.blogdescription, h2.blogdescription > a, a.blogdescription{
+h2.blogdescription, h2.blogdescription > a, a.blogdescription, p.containter.blogdescription {
 	color: #959595;
 	text-align: center;
 	font-size: 1.2em;
