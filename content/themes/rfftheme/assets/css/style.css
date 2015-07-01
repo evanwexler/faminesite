@@ -26,14 +26,14 @@ h1 {
 	color: #fff;
 }
 
-h1.blogtitle, a.blogtitle {
+h1.blogtitle, h1.blogtitle > a {
 	font-size: 2.8em;	
 	color: #fff;
 	text-align: center;
 }
 
 
-h2.blogdescription, a.blogdescription{
+h2.blogdescription, h2.blogdescription > a{
 	color: #959595;
 	text-align: center;
 	font-size: 1.2em;
