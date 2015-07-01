@@ -1,5 +1,5 @@
 body { 
-	background-color: #F0F0F0; 
+	background-color: #262626; 
 	color: #000;
 	font-family: helvetica, sans-serif;
 }
@@ -20,14 +20,25 @@ a {
 }
 
 
-H1 {
+h1 {
 	font-size: 1.5em;
 	font-weight: 800;
+	color: #fff;
 }
 
-H1.blogtitle {
-	font-size: 3em;	
+h1.blogtitle, a.blogtitle {
+	font-size: 2.8em;	
+	color: #fff;
+	text-align: center;
 }
+
+
+h2.blogdescription, a.blogdescription{
+	color: #959595;
+	text-align: center;
+	font-size: 1.2em;
+	
+	}
 
 .sudan-col{
 	background-color: #fff;
@@ -52,9 +63,21 @@ H1.blogtitle {
 	height: 600px;
 	font-size: 13em;
 	text-align: center;
+	width: 100%;
 }
 
 
 img {
 	max-width: 100%;
 }
+
+
+@media (min-width: 700px) {
+	
+	 }
+
+
+
+
+
+
