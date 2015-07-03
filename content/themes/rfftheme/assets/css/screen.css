@@ -955,6 +955,12 @@ body:not(.post-template) .post-title {
     line-height: 1.7em;
 }
 
+.post-image {
+  width: 100%;
+  max-width: 710px;
+}
+
+
 .read-more {
     text-decoration: none;
 }
