@@ -867,11 +867,12 @@ body.nav-opened .nav {
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     margin: 10px 0 10px 0;
-    font-size: 5rem;
+    font-size: 10rem;
     letter-spacing: -1px;
-    font-weight: 700;
-    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-family: "Oswald", sans-serif;
     color: #fff;
+    letter-spacing: .02em;
 }
 
 .page-description {
@@ -879,9 +880,9 @@ body.nav-opened .nav {
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Merriweather", serif;
+    font-family: "Open Sans", serif;
     letter-spacing: 0.01rem;
-    color: rgba(255,255,255,0.8);
+    color: #fff;
 }
 
 .no-cover.main-header {
@@ -905,7 +906,7 @@ body.nav-opened .nav {
     -webkit-animation-delay: 0.2s;
     animation-delay: 0.2s;
 }
-.home-template .page-description {
+.home-template  {
     -webkit-animation: fade-in-down 0.9s;
     animation: fade-in-down 0.9s;
     -webkit-animation-delay: 0.1s;
