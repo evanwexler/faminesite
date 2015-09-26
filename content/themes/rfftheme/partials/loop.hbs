@@ -5,6 +5,42 @@
 
 {{! This is the post loop - each post will be output using this markup }}
 {{#foreach posts}}
+
+<!-- LOOP 1 -->
+
+
+{{^has tag="Technology, Getting Started"}}
+    <article class="{{post_class}}">
+    <header class="post-header">
+        <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
+    </header>
+    <section class="post-excerpt">
+	    <img class="post-image" src="{{{image}}}"/>
+        <p>{{excerpt words="26"}} <a class="read-more" href="{{url}}">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        {{#if author.image}}<img class="author-thumb" src="{{author.image}}" alt="{{author.name}}" nopin="nopin" />{{/if}}
+        {{author}}
+        {{tags prefix=" on "}}
+        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>        
+    </footer>
+</article>
+
+{{/has}}
+
+
+{{/foreach}}
+
+<!-- LOOP 2 -->
+
+
+
+
+{{#foreach posts}}
+
+{{#has tag="Technology, Getting Started"}}
+
+<div class="VR">
 <article class="{{post_class}}">
     <header class="post-header">
         <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
@@ -17,10 +53,19 @@
         {{#if author.image}}<img class="author-thumb" src="{{author.image}}" alt="{{author.name}}" nopin="nopin" />{{/if}}
         {{author}}
         {{tags prefix=" on "}}
-        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
+        <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>        
     </footer>
 </article>
+</div>
+    {{/has}}
+    
+
+    
 {{/foreach}}
+
 
 {{! Previous/next page links - displayed on every page }}
 {{pagination}}
+
+
+

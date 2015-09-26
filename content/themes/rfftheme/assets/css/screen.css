@@ -1113,6 +1113,13 @@ body:not(.post-template) .post-title {
     line-height: 1.5em;
 }
 
+/* This is the VR category tag */
+
+.VR {
+	background:#e9e9e9;
+	float: right;
+}
+
 
 /* ==========================================================================
    5. Single Post - When you click on an individual post
