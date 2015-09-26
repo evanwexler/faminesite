@@ -138,6 +138,28 @@ table { border-collapse: collapse; border-spacing: 0; }
     font-style: normal;
 }
 
+
+@font-face {
+    font-family: "Oswald";
+    src:url("../fonts/Oswald-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Oswald-Light";
+	src:url("../fonts/Oswald-Light.ttf");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Oswald-Bold";
+	src:url("../fonts/Oswald-Bold.ttf");
+    font-weight: 100;
+    font-style: normal;
+}
 		
 
 /* Apply these base styles to all icons */
@@ -236,7 +258,7 @@ h4, h5, h6 {
     color: #2E2E2E;
     line-height: 1.15em;
     margin: 0 0 0.4em 0;
-    f font-family: "Brandon-thin", sans-serif;
+    font-family: 'Oswald', 'Lucida Grande', 'Arial'
     text-rendering: geometricPrecision;
 }
 
@@ -911,23 +933,23 @@ body.nav-opened .nav {
     font-size: 10rem;
     letter-spacing: -1px;
     font-weight: 800;
-    font-family: "Brandon-black", sans-serif;
-    color: #000;
-    letter-spacing: .02em;
+    font-family: "Oswald-Bold", sans-serif;
+    color: #fff;
+    letter-spacing: .1em;
     text-transform: uppercase;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .page-description {
     margin: 0;
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 1.5em;
-    font-weight: 400;
-    font-family: "Brandon", sans-serif;
+    font-weight: 100;
+    font-family: "Helvetica", sans-serif;
     letter-spacing: 0.01rem;
-    color: #000;
-    background-color: rgba(255, 255, 255, 0.5);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .no-cover.main-header {
